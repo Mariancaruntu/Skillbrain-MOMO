@@ -1,0 +1,63 @@
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*Introduction Section */
+.Introduction h1 {
+    color: aquamarine;
+    margin-bottom: 10px;
+}
+
+.Introduction strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+.Education {
+    color: azure;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.Education p {
+    margin-left: 20px;
+}
+
+/* Experience Section */
+.Experience {
+    color: blueviolet;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.Experience p {
+    margin-left: 20px;
+}
+
+/* Skills Section */
+.Skills {
+    color: antiquewhite;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.Skills p {
+    margin-left: 20px;
+}
+
+/* Obiection Section */
+.Objection {
+    color: aqua;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.Objection p {
+    margin-left: 20px;
+}
