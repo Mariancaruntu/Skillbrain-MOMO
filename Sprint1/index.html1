@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curiculum Vitae</title>
+
+    </head>
+
+    <body>
+        <div>
+        <h1 style="color:aliceblue"> Marian Caruntu</h1>
+        <strong>Email:maryano.blanko58@gmail.com</strong>
+        <p><strong>Mobile Number: 00353899504606</strong></p>    
+        </div>
+
+
+        <h2 style="color:aqua">Educatie</h2>
+        <p><strong>Clasele 01-10: "Scoala Generala nr.1 Iacobeni"</strong></p>
+        <p><strong>Profil:</strong>Agricol</p>
+        <p><strong>Clasele 11-12:</strong>Scoala Profesionala nr.2 Hunedoara</p>
+        <p><strong>Profil</strong>Mecanic</p>
+        <p><strong>Calificare profesionala:</strong>Lacatus Mecanic</p>
+        <p><strong>Oras</strong>Hunedoara</p>
+
+
+        <h3 style=color:blueviolet; margin-right:3px>Experienta</h3>
+        <p>Lacatus Mecanic 30 Mai 1990 - 23 Iulie 1993</p>
+        <p>Operator Asamblare Tv 10 Aprilie 2015 - 20 Decembrie 2015</p>
+        <p>Ajutor Bucatar 31 Noiembrie 2021 - 31 Iulie 2022 </p>
+
+
+        <h4 style=color:azure; margin-right:10px> Aptitudini</h4>
+        <p>Atent la detalii</p>
+        <p>Lucru in echipa dar si pe cont propriu</p>
+        <p>Auto-motivare</p>
+
+        
+        <h5 style=color:bisque>Obiective</h5>
+        <p>Dezvoltare pe plan profesional</p>
+        <p>Posibilitate financiara mai dezvoltata</p>
+
+
+    </body>
+
+</html>
