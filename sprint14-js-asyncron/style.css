@@ -1,0 +1,222 @@
+/* Global styles */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #f4f4f4;
+    background: url(assets/home/background-adventure.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: #f4f4f4;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    text-decoration: underline;
+}
+
+/* Main section (Home) */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.home-section {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f4f4f4;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.home-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn-explore {
+    padding: 20px 40px;
+    background-color: #ff9800;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-explore:hover {
+    background-color: #e68900;
+}
+
+/* Adventures Section */
+#adventures-section {
+    display: none;
+}
+
+.adventures-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.adventure-buttons button {
+    padding: 15px 30px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.adventure-buttons button:hover {
+    background-color: #e68900;
+}
+
+.adventure-details {
+    text-align: left;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.adventure-details p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Guides Section */
+#guides-section {
+    display: none;
+}
+
+.guides-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.guide-info img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.guide-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.guide-info p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.guide-buttons button {
+    padding: 10px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Gear Section */
+#gear-section {
+    display: none;
+}
+
+.gear-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gear-info {
+    text-align: center;
+    width: 50%;
+}
+
+.gear-buttons button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gear-buttons button:hover {
+    background-color: #e68900;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .section {
+        padding: 20px;
+    }
+
+    .home-content h1 {
+        font-size: 45px;
+    }
+
+    .adventures-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guide-info img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .adventure-buttons button, .guide-buttons button, .gear-buttons button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
