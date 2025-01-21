@@ -10,36 +10,24 @@
 //Input: num = -12
 //Output: 144
 
-const squareMap = new Map();
-
 function findSquare(num) {
-    // Verifica daca patratul numarului este deja salvat in map
-
-if (squareMap.has(num)) {
-
-return squareMap.get(num); // Returneaza valoarea salvata din map
-    }
-
-    }
-
- // Daca nu este salvat, calculeaza patratul
-
-let result = num * num;
-
-    // Salveaza rezultatul in map
-    squareMap.
-    squareMap.
-set(num, result);
-
-
-return result;
+    let result = num * num;
+    return result;
+}
 
 let num1 = 2
 let num2 = 7
 let num3 = 10
 
-console.log("Patratul" + num1 + "este:" + findSquare(num1));
-console.log("Patratul" + num2 + "este:" + findSquare(num2));
-console.log("Patratul" + num3 + "este:" + findSquare(num3));
+// Afisam patratele numerelor
+console.log("Patratul lui " + num1 + "este: " + findSquare(num1));
+console.log("Patratul lui " + num2 + "este: " + findSquare(num2));
+console.log("Patratul lui " + num3 + "este: " + findSquare(num3));
 
-console.log("Patratele salvate: ", Array.from(squareMap));
+// Daca vrem sa salvam rezultatele intr-un obiect sau array
+let squareMap = {
+    num1: findSquare(num1),
+    num2: findSquare(num2),
+    num3: findSquare(num3)
+};
+console.log("Patratele salvate: ", squareMap);

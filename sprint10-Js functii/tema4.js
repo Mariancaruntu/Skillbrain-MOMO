@@ -14,14 +14,9 @@
 
 //Output: 15
 
-function addNumber() {
-    let sum = 0;
-    for (let i = 0; i < arguments.length; i++) {
-        sum += arguments[i];
-    }
-    return sum;
+function addNumber(...args) {
+    return args.reduce((sum, num) => sum + num, 0);
 }
 
-console.log(addNumber(1, 2, 3, 4));
-console.log(addNumber(20, 30, 40));
-
+console.log(addNumber(1, 2, 3, 4)); // Output: 10
+console.log(addNumber(20, 30, 40)); // Output: 90

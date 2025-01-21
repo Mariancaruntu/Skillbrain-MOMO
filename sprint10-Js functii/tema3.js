@@ -8,21 +8,13 @@
 //Output: 2
 
 function letterCount(sir, litera) {
-    // Transformam atat sirul cat si litera intr-un format uniform
     litera = litera.toLowerCase();
+    sir = sir.toLowerCase();
 
-    let count = 0;
-
-    // Parcurgem sirul si numaram aparitiile literei
-    for (let i = 0; i < sir.length; i++) {
-        if (sir[i] === litera) {
-            count++;
-        }
-    }
-
-    return count;
+    return sir.split('').reduce((count, char) => { 
+        return char === litera ? count + 1 : count;
+    }, 0);
 }
 
-
-console.log(letterCount("imi place programarea", "a"));
-console.log(letterCount("Vreau sa lucrez in IT", "r"));
+console.log(letterCount("imi place programarea", "a")); // Output: 4
+console.log(letterCount("Vreau sa lucrez in IT", "r")); // Output: 2

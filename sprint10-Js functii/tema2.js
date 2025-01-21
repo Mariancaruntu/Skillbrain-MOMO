@@ -7,7 +7,6 @@
 //Input: start = 3, end = 5
 
 //Output: <un numar mai    3 si < 5>  
-
 function getRandom(start, end) {
     if (typeof start !== 'number' || typeof end !== 'number') {
         throw new Error('Ambele valori trebuie sa fie numere.');
@@ -15,11 +14,14 @@ function getRandom(start, end) {
     if (start >= end) {
         throw new Error('Start trebuie sa fie mai mic decat end.');
     }
-    return Math.floor(Math.random() * (end - start) + start);
+
+    const numbersInRange = Array.from({ length: end - start }, (_, i) => start + i);
+
+    return numbersInRange[Math.floor(Math.random() * numbersInRange.length)];
 }
 
-let start = 2;
-let end = 12;
+let start = 1;
+let end = 5;
 
 let numberRandom = getRandom(start, end);
-console.log("Numarul aleatoriu intre" + "si" + end + numberRandom);
+console.log("Numarul aleatoriu intre " + start + " si " + end + " este: " + numberRandom);
