@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6; /* Fundal deschis pentru un stil modern */
+}
+
+.advice-container {
+    text-align: center;
+    background-color: #ffffff; /* Fundal alb pentru container */
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Umbre subtile pentru efect de adâncire */
+    width: 90%;
+    max-width: 500px;
+}
+
+.advice-id {
+    color: #4caf50; /* Verde vibrant pentru ID-ul sfatului */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.advice-text {
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+    color: #333333; /* Text în gri închis pentru lizibilitate */
+}
+
+.dice-button {
+    background-color: #007bff; /* Albastru vibrant pentru buton */
+    border: none;
+    padding: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Efecte de tranziție */
+}
+
+.dice-button:hover {
+    background-color: #0056b3; /* Albastru mai închis la hover */
+    transform: scale(1.1); /* Mărește butonul la hover */
+}
+
+.dice-button img {
+    width: 28px;
+    height: 28px;
+}
