@@ -1,0 +1,108 @@
+{
+    "destinations": [
+      {
+        "name": "International Space Station",
+        "images": {
+          "png": "./assets/destination/image-iss.png",
+          "webp": "./assets/destination/image-iss.webp"
+        },
+        "description": "Experience life in space aboard the ISS. See Earth from the most iconic vantage point and participate in daily experiments with international astronauts.",
+        "distance": "408 km",
+        "travel": "3 hours"
+      },
+      {
+        "name": "Lunar Gateway",
+        "images": {
+          "png": "./assets/destination/image-lunar-gateway.png",
+          "webp": "./assets/destination/image-lunar-gateway.webp"
+        },
+        "description": "The Lunar Gateway is a space station orbiting the Moon, providing support for future missions to the lunar surface and beyond.",
+        "distance": "400,000 km",
+        "travel": "2 days"
+      },
+      {
+        "name": "Mars Orbital Station",
+        "images": {
+          "png": "./assets/destination/image-mars-orbital.png",
+          "webp": "./assets/destination/image-mars-orbital.webp"
+        },
+        "description": "Stay in the Mars Orbital Station and study the red planet from its orbit. Conduct research on Martian moons and prepare for future surface missions.",
+        "distance": "225 mil. km",
+        "travel": "8 months"
+      },
+      {
+        "name": "James Webb Space Observatory",
+        "images": {
+          "png": "./assets/destination/image-jwst.png",
+          "webp": "./assets/destination/image-jwst.webp"
+        },
+        "description": "Explore the wonders of the universe from the most powerful space telescope ever built. Study the oldest galaxies, black holes, and distant stars.",
+        "distance": "1.5 mil. km",
+        "travel": "1 month"
+      }
+    ],
+    "crew": [
+      {
+        "name": "Sally Ride",
+        "images": {
+          "png": "./assets/crew/image-sally-ride.png",
+          "webp": "./assets/crew/image-sally-ride.webp"
+        },
+        "role": "Mission Commander",
+        "bio": "Sally Ride was the first American woman in space. She served as a mission specialist and helped in the development of the Space Shuttle program."
+      },
+      {
+        "name": "Chris Hadfield",
+        "images": {
+          "png": "./assets/crew/image-chris-hadfield.png",
+          "webp": "./assets/crew/image-chris-hadfield.webp"
+        },
+        "role": "Flight Engineer",
+        "bio": "Chris Hadfield is a retired Canadian astronaut. He was the first Canadian to command the International Space Station and a pioneer of space social media."
+      },
+      {
+        "name": "Mae Jemison",
+        "images": {
+          "png": "./assets/crew/image-mae-jemison.png",
+          "webp": "./assets/crew/image-mae-jemison.webp"
+        },
+        "role": "Science Officer",
+        "bio": "Mae Jemison is an American engineer, physician, and NASA astronaut. She became the first African-American woman to travel into space."
+      },
+      {
+        "name": "Yuri Gagarin",
+        "images": {
+          "png": "./assets/crew/image-yuri-gagarin.png",
+          "webp": "./assets/crew/image-yuri-gagarin.webp"
+        },
+        "role": "Pilot",
+        "bio": "Yuri Gagarin was the first human to journey into outer space. He became an international hero after his flight aboard Vostok 1 in 1961."
+      }
+    ],
+    "technology": [
+      {
+        "name": "Space Habitat",
+        "images": {
+          "png": "./assets/technology/image-space-habitat-portrait.jpg",
+          "landscape": "./assets/technology/image-space-habitat-landscape.jpg"
+        },
+        "description": "The Space Habitat is a self-sustaining living environment that allows astronauts to live and work for extended periods in space. It includes sleeping quarters, laboratories, and recreational areas."
+      },
+      {
+        "name": "Robotic Arm",
+        "images": {
+          "png": "./assets/technology/image-robotic-arm-portrait.jpg",
+          "landscape": "./assets/technology/image-robotic-arm-landscape.jpg"
+        },
+        "description": "Our robotic arm is used for maintenance tasks, satellite repairs, and cargo movement in space. It is equipped with precise control for delicate operations."
+      },
+      {
+        "name": "Space Docking Station",
+        "images": {
+          "png": "./assets/technology/image-space-docking-portrait.jpg",
+          "landscape": "./assets/technology/image-space-docking-landscape.jpg"
+        },
+        "description": "The space docking station is where spacecraft can dock to transfer cargo, fuel, or crew. It’s essential for long-term missions beyond Earth’s orbit."
+      }
+    ]
+  }
